@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SCTV.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShowScriptErrors" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FilterLevel" Type="SafeSurf.PopupBlockerFilterLevel" Scope="User">
+      <Value Profile="(Default)">Low</Value>
+    </Setting>
+    <Setting Name="CheckForms" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Sweepstakes1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">home-and-garden</Value>
+    </Setting>
+    <Setting Name="Sweepstakes2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">cash-blizzard</Value>
+    </Setting>
+    <Setting Name="Sweepstakes3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">prize-madness-2019</Value>
+    </Setting>
+    <Setting Name="Sweepstakes4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">vip-sweepstakes-2019</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
