@@ -204,7 +204,7 @@ namespace SCTV
                 _windowManager.StatusTextChanged += new EventHandler<TextChangedEventArgs>(_windowManager_StatusTextChanged);
                 _windowManager.DocumentCompleted += _windowManager_DocumentCompleted;
                 //_windowManager.ActiveBrowser.Navigating += ActiveBrowser_Navigating;
-                _windowManager.ActiveBrowser.ScriptErrorsSuppressed = true;
+                //_windowManager.ActiveBrowser.ScriptErrorsSuppressed = true;
                 _windowManager.ShowAddressBar = showAddressBar;
 
                 showAddressBarToolStripMenuItem.Checked = showAddressBar;

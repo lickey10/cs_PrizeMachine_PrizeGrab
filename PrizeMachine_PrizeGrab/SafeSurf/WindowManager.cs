@@ -290,13 +290,16 @@ namespace SCTV
         {
             get
             {
-                TabPageEx page = (TabPageEx)_tabControl.SelectedTab;
-
-                if (page != null)
+                if (_tabControl != null && _tabControl.TabCount > 0)
                 {
-                    BrowserControl control = page.Tag as BrowserControl;
-                    if (control != null)
-                        return control.WebBrowser;
+                    TabPageEx page = (TabPageEx)_tabControl.SelectedTab;
+
+                    if (page != null)
+                    {
+                        BrowserControl control = page.Tag as BrowserControl;
+                        if (control != null)
+                            return control.WebBrowser;
+                    }
                 }
                 return null;
             }
@@ -308,7 +311,7 @@ namespace SCTV
             {
                 try
                 {
-                    if (_tabControl != null && _tabControl.SelectedIndex >= 0)
+                    if (_tabControl != null && _tabControl.SelectedIndex > 0)
                     {
                         TabPageEx page = (TabPageEx)_tabControl.SelectedTab;
                         if (page != null)

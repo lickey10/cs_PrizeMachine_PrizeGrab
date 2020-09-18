@@ -59,13 +59,12 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Interop.SpeechLib, Version=5.1.0.0, Culture=neutral">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SCTV3rdPartyDLLs\Interop.SpeechLib.dll</HintPath>
+    <Reference Include="Interop.SpeechLib">
+      <HintPath>..\..\..\..\PrizeMachine_WinLootBonus\PrizeMachine_WinLootBonus\Objects\dlls\Interop.SpeechLib.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
-    <Reference Include="Microsoft.Xml.XQuery, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\SCTV3rdPartyDLLs\Microsoft.Xml.XQuery.dll</HintPath>
+    <Reference Include="Microsoft.Xml.XQuery">
+      <HintPath>..\..\..\..\PrizeMachine_WinLootBonus\PrizeMachine_WinLootBonus\Objects\dlls\Microsoft.Xml.XQuery.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
@@ -930,12 +929,6 @@
     </Content>
     <None Include="XQu\getDistinctCategories.xqu">
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\DeviceVolumeMonitor\SCTVDeviceVolumeMonitor.csproj">
-      <Project>{929CEC91-4239-4262-A1DC-87450AED0A5C}</Project>
-      <Name>SCTVDeviceVolumeMonitor</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="logs\" />
