@@ -23,5 +23,8 @@
     <Setting Name="Sweepstakes4" Type="System.String" Scope="User">
       <Value Profile="(Default)">vip-sweepstakes-2019</Value>
     </Setting>
+    <Setting Name="users" Type="System.String" Scope="User">
+      <Value Profile="(Default)">lickey10@gmail.com|soccer,lickeykids@gmail.com|soccer</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

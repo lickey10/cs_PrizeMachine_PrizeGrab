@@ -306,8 +306,13 @@ namespace SCTV
             txtSweepstakes3.Text = Properties.Settings.Default.Sweepstakes3;
             txtSweepstakes4.Text = Properties.Settings.Default.Sweepstakes4;
 
-            users.Add("lickey10@gmail.com|soccer");
-            users.Add("lickeykids@gmail.com|soccer");
+
+            //users.Add("lickey10@gmail.com|soccer");
+            //users.Add("lickeykids@gmail.com|soccer");
+            string allUsers = Properties.Settings.Default.users;
+
+            foreach(string user in allUsers.Split(','))
+                users.Add(user);
 
             //start looking for sweepstakes
             clickNextButton();
